@@ -1,0 +1,13 @@
+Gebruiksaanwijzing:
+. staat voor precies 1 onbekende letter
+* staat voor nul of meer onbekende letters
+dus bijv. 'ja.' staat voor jak, jam, jan enz.
+ja* staat voor: ja, jak, jakkes, jaap enz. 
+a*l*s kan zijn: als, appels, appelmoes enz.
+Hoofd- of kleine letters maakt geen verschil
+ij telt als 1 letter en is verschillend van y
+accenten op letters worden genegeerd.
+Bij scrabble-zoek kun je letters intypen en 
+een of meer .-en als 'blanco'.
+Tap op het onderste/bovenste gedeelte van
+de lijst om 1 pagina omlaag/hoog te gaan.

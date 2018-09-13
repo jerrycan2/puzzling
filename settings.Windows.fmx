@@ -1,0 +1,6 @@
+inherited SettingsPopup_Windows: TSettingsPopup_Windows
+  DesignerMasterStyle = 3
+  inherited SpinBox1: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+  end
+end

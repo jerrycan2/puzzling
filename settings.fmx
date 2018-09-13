@@ -1,0 +1,94 @@
+object SettingsPopup: TSettingsPopup
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Cancel'
+  ClientHeight = 146
+  ClientWidth = 130
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF11346D
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFF1D24D3
+      Offset = 0.475155293941497800
+    end
+    item
+      Color = xFF0E898E
+      Offset = 0.993788838386535600
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Orientations = [Portrait]
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object SpinBox1: TSpinBox
+    StyleLookup = 'spinboxstyle'
+    TabOrder = 0
+    Cursor = crHandPoint
+    Min = 12.000000000000000000
+    Max = 32.000000000000000000
+    Value = 12.000000000000000000
+    DisableFocusEffect = True
+    Increment = 2.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 50.000000000000000000
+    TextSettings.FontColor = claWhite
+    StyledSettings = [Family, Size, Style, FontColor, Other]
+    OnChange = SpinBox1Change
+  end
+  object FontLabel: TLabel
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 24.000000000000000000
+    Position.Y = 2.000000000000000000
+    Size.Width = 92.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'labelstyle'
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Center
+    Text = 'font'
+    TabOrder = 1
+  end
+  object ScaledLayout1: TScaledLayout
+    Align = Bottom
+    OriginalWidth = 130.000000000000000000
+    OriginalHeight = 26.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 130.000000000000000000
+    Size.Height = 26.000000000000000000
+    Size.PlatformDefault = False
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      AutoTranslate = False
+      ModalResult = 1
+      Margins.Left = 16.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Position.X = 16.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowdowntoolbuttonborderedright'
+      Text = 'Apply'
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Client
+      ModalResult = 2
+      Margins.Left = 8.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Size.Width = 34.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton2'
+    end
+  end
+end
